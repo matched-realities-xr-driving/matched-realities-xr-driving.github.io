@@ -3,25 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="A novel benchmark for scene classification for vehicular applications..">
-  <meta name="keywords" content="vwise, clip, x-clip, scene classification, autonomous">
+        content="Don’t Stop Me Now: Evaluating Matched Realities for In-Car XR User Experience. A physically grounded XR driving platform integrating real vehicle controls with immersive virtual environments to evaluate user experience in MR and VR.">
+  <meta name="keywords" content="AutoUI, XR, Extended Reality, Mixed Reality, Virtual Reality, Automotive UI, Driving Simulator, Matched Realities, In-Car XR, User Experience">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ROAD Dataset
-</title>
+  <title>Don’t Stop Me Now: Evaluating Matched Realities for In-Car XR User Experience</title>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <!-- Optional analytics: remove or replace if not needed -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
+    gtag('config', 'G-XXXXXXXXXX');
   </script>
+  -->
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -48,173 +44,148 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">The Road surface Observation and Analysis Dataset (ROAD)
-</title></h1>
-<div class="is-size-5 publication-authors">
-  <span class="author-block">
-    <a href="http://wlcosta.github.io">Willams de Lima Costa</a><sup>1</sup>,</span>
-  <span class="author-block">
-    <a href="#">Thifany Ketuli Silva de Souza</a><sup>1</sup>,</span>
-  <span class="author-block">
-    <a href="#">Jonas Ferreira Silva</a><sup>1</sup>,</span>
-  <span class="author-block">
-    <a href="#">Carlos Gabriel Bezerra Pereira</a><sup>1</sup>,</span>
-  <span class="author-block">
-    <a href="#">Bruno Reis Vila Nova</a><sup>1</sup>,</span>
-  <span class="author-block">
-    <a href="#">Rafael Raider Leoni</a><sup>2</sup>,</span>
-  <span class="author-block">
-    <a href="#">Juliano Silva</a><sup>2</sup>,</span>
-  <span class="author-block">
-    <a href="#">Valter Ferreira</a><sup>2</sup>,</span>
-  <span class="author-block">
-    <a href="#">Sibele Neto</a><sup>3</sup>,</span>
-  <span class="author-block">
-    <a href="#">Samantha Uehara</a><sup>4</sup>,</span>
-  <span class="author-block">
-    <a href="#">Daniel Giacomo</a><sup>5</sup>,</span>
-  <span class="author-block">
-    <a href="#">João Marcelo Teixeira</a><sup>1</sup>,</span>
-  <span class="author-block">
-    <a href="#">Veronica Teichrieb</a><sup>1</sup>,</span>
-  <span class="author-block">
-    <a href="#">Cristiano Coelho de Araújo</a><sup>1</sup>
-  </span>
-</div>
 
-<div class="is-size-5 publication-authors">
-  <span class="author-block"><sup>1</sup>Voxar Labs, Centro de Informática, Universidade Federal de Pernambuco, Brazil</span></br>
-  <span class="author-block"><sup>2</sup>Volkswagen Truck and Bus, Resende, Rio de Janeiro, Brazil</span></br>
-  <span class="author-block"><sup>3</sup>Stellantis Brasil, Porto Real, Rio de Janeiro, Brazil</span></br>
-  <span class="author-block"><sup>4</sup>Volkswagen do Brasil, São Bernardo do Campo, São Paulo, Brazil</span></br>
-  <span class="author-block"><sup>5</sup>Embeddo, Volta Redonda, Rio de Janeiro, Brazil</span></br>
-</div>
+          <h1 class="title is-1 publication-title">
+            Don’t Stop Me Now: Evaluating Matched Realities for In-Car XR User Experience
+          </h1>
 
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="mailto:gcd2@cin.ufpe.br">Gustavo Domingues</a><sup>1</sup><sup>,†</sup>,
+            </span>
+            <span class="author-block">
+              <a href="mailto:cgbp@cin.ufpe.br">Carlos Pereira</a><sup>1</sup><sup>,†</sup>,
+            </span>
+            <span class="author-block">
+              <a href="mailto:dosc@cin.ufpe.br">David Cardoso</a><sup>1</sup><sup>,†</sup>,
+            </span>
+            <span class="author-block">
+              <a href="mailto:marina.kunst@ufpe.br">Marina Holanda Kunst</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="mailto:wlc2@cin.ufpe.br">Willams de Lima Costa</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="mailto:vt@cin.ufpe.br">Veronica Teichrieb</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="mailto:fatima.nunes@usp.br">Fátima L. S. Nunes</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="mailto:jmxnt@cin.ufpe.br">João M. X. N. Teixeira</a><sup>1,3</sup>
+            </span>
+          </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>1</sup>Voxar Labs, Recife, Pernambuco, Brazil</span><br>
+            <span class="author-block"><sup>2</sup>Federal University of Pernambuco, Recife, Pernambuco, Brazil</span><br>
+            <span class="author-block"><sup>3</sup>University of São Paulo, São Paulo, São Paulo, Brazil</span><br>
+            <span class="author-block"><sup>†</sup>The three authors contributed equally to this research.</span>
+          </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
+
               <span class="link-block">
                 <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="ai ai-arxiv"></i>
+                    <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>Paper</span>
                 </a>
               </span>
-              <!-- Video Link. -->
-              <!-- Dataset Link. -->
+
               <span class="link-block">
-                <a href="#road-access"
+                <a href="#dataset-access"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="far fa-images"></i>
+                    <i class="far fa-images"></i>
                   </span>
-                  <span>Data</span>
-                  </a>
-            </div>
+                  <span>Dataset</span>
+                </a>
+              </span>
 
+              <span class="link-block">
+                <a href="#bibtex"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-quote-right"></i>
+                  </span>
+                  <span>BibTeX</span>
+                </a>
+              </span>
+
+            </div>
           </div>
+
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!--
-<section class="hero teaser">
+<section class="section">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/mosaico.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Vwise</span> is a novel benchmark focused in Latin America
-      </h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Understanding how visual-physical alignment influences user experience is critical for the deployment of extended reality (XR) systems in automotive contexts. While Mixed Reality (MR) and Virtual Reality (VR) are often assumed to differ in realism and comfort, it remains unclear how these differences manifest when virtual driving is grounded in real vehicle controls. We present a physically grounded XR driving platform that integrates real vehicle inputs via OBD-II telemetry with immersive virtual environments. We evaluated the system with 40 participants performing a controlled driving task under both MR and VR conditions. Subjective measures included perceived realism, visuo-tactile coherence, control quality, immersion, and cybersickness. Contrary to common expectations, results show largely comparable experiences between MR and VR across most measures, including immersion, visuo-tactile perception, and discomfort. Only modest trends suggest slightly higher perceived driving realism and control responsiveness in MR. These findings indicate that grounding XR simulations in real vehicle interaction may reduce experiential differences between XR modalities. We discuss implications for the design of XR-based automotive simulators, suggesting that physical integration may play a more critical role than display modality in shaping user experience.
+          </p>
+        </div>
+
+      </div>
     </div>
   </div>
 </section>
--->
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" id="dataset-access">Dataset</h2>
         <div class="content has-text-justified">
-          <p>Road surface classification (RSC) is a key enabler for environment-aware predictive maintenance systems. However, existing RSC techniques often fail to generalize beyond narrow operational conditions due to limited sensing modalities and datasets that lack environmental diversity. This work addresses these limitations by introducing a multimodal framework that fuses images and inertial measurements using a lightweight bidirectional cross-attention module followed by an adaptive gating layer that adjusts modality contributions under domain shifts. 	Given the limitations of current benchmarks, especially regarding lack of variability, we introduce ROAD, a new dataset composed of three complementary subsets: (i) real-world multimodal recordings with RGB–IMU streams synchronized using a gold-standard industry datalogger, captured across diverse lighting, weather, and surface conditions; (ii) a large vision-only subset designed to assess robustness under adverse illumination and heterogeneous capture setups; and (iii) a synthetic subset generated to study out-of-distribution generalization in scenarios difficult to obtain in practice. Experiments show that our method achieves a +1.4 pp improvement over the previous state-of-the-art on the PVS benchmark and an +11.6 pp improvement on our multimodal ROAD subset, with consistently higher F1-scores on minority classes. The framework also demonstrates stable performance across challenging visual conditions, including nighttime, heavy rain, and mixed-surface transitions. These findings indicate that combining affordable camera and IMU sensors with multimodal attention mechanisms provides a scalable, robust foundation for road surface understanding, particularly relevant for regions where environmental variability and cost constraints limit the adoption of high-end sensing suites.
+          <p>
+            The dataset associated with this paper will be made publicly available upon acceptance.
+          </p>
+          <p>
+            For early questions regarding materials, implementation details, or collaboration, please contact
+            <a href="mailto:gcd2@cin.ufpe.br">gcd2@cin.ufpe.br</a>.
           </p>
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
 
   </div>
 </section>
 
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
-      
-
-   
-
-    
-
-    <!-- Concurrent Work. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3" id="vwise-access">Access to data</h2>
-
-        <div class="content has-text-justified">
-          <p> Please contact <a href="mailto:wlc2@cin.ufpe.br">wlc2@cin.ufpe.br</a> to request data access, informing your intended use and affiliation.</p>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Concurrent Work. -->
-
-  </div>
-</section>
-
-<!--
-<section class="section" id="BibTeX">
+<section class="section" id="bibtex">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{azevedo2024vwise,
-  title={VWise: A novel benchmark for evaluating scene classification for vehicular applications},
-  author={Azevedo, Pedro and Ara{\'u}jo, Emanuella and Pierre, Gabriel and Costa, Willams de Lima and Teixeira, Jo{\~a}o Marcelo and Ferreira, Valter and Jones, Roberto and Teichrieb, Veronica},
-  journal={arXiv preprint arXiv:2406.03273},
-  year={2024}
+    <pre><code>@inproceedings{domingues2026dontstopmenow,
+  title     = {Don’t Stop Me Now: Evaluating Matched Realities for In-Car XR User Experience},
+  author    = {Domingues, Gustavo and Pereira, Carlos and Cardoso, David and Kunst, Marina Holanda and Costa, Willams de Lima and Teichrieb, Veronica and Nunes, F{\'a}tima L. S. and Teixeira, Jo{\~a}o M. X. N.},
+  year      = {2026},
+  note      = {Dataset available upon acceptance}
 }</code></pre>
   </div>
 </section>
--->
 
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
-    </div>
+    <div class="content has-text-centered"></div>
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
           <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This website template is adapted for academic project pages. Please remove any unused analytics scripts and update links before publishing.
           </p>
           <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            If this page accompanies a blind submission at any stage, make sure all author-identifying information is removed from the public version.
           </p>
         </div>
       </div>
